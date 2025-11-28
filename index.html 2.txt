@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-top: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    My Product
+</header>
+
+<div class="container">
+    <img src="https://uploads.onecompiler.io/442jhc7qw/445xz6qa3/IMG_3332.jpeg" alt="Product Image">
+    <p>This is a short description of the product. It highlights the key features and explains why it’s useful.</p>
+    <a href="#" class="btn">Buy Now</a>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Skatepark Warm-Up </title>
+    <style>
+        .product-card {
+            width: 260px;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .product-title {
+            margin-top: 12px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .product-price {
+            margin: 8px 0;
+            font-size: 20px;
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .buy-button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .buy-button:hover {
+            background: #43a047;
+        }
+    </style>
+</head>
+<body>
+
+<div class="product-card">
+    <img src= "https://uploads.onecompiler.io/442jhc7qw/445xz6qa3/IMG_3333.jpeg" alt="Sosis Fiesta">
+    <div class="product-title">Skatepark Warm-Up</div>
+    <div class="product-price">Rp 150.000</diva
+    <button class= "buy-button">Buy Now</button>
+</div>
+
+</body>
+</html>
